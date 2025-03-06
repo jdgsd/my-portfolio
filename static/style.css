@@ -1,0 +1,111 @@
+:root {
+  --color-accent: oklch(65% 50% 0);
+  --border-gray: oklch(80% 3% 200);
+  /* ADD the rest of the color definitions here if needed! */
+}
+
+body {
+    font: 100%/1.5 system-ui;
+    max-width: 50rem;
+    margin-inline: auto;
+    padding: 1rem;
+    accent-color: var(--color-accent);
+}
+
+h1 {
+  font-size: 400%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+nav ul, 
+nav li {
+    display: contents;
+}
+
+nav {
+  display: flex;
+}
+
+nav a{
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5em;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  --border-color: oklch(50% 10% 200 / 40%);
+}
+
+nav a.current {
+  border-bottom: 0.4em solid var(--border-color);
+}
+
+nav a:hover {
+  border-bottom: 0.4em solid var(--color-accent);
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
+}
+
+input,
+textarea,
+button,
+select { 
+  font: inherit;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1em;
+}
+
+button {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+}
+
+img {
+  max-width: 100%;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  grid-column-gap: 25px;
+}
+
+article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+}
+
+.cv-section {
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+  align-items: start;
+  margin-bottom: 30px;
+}
+
+.cv-section h2 {
+  grid-column: 1 / 2;
+}
+
+.cv-detail {
+  grid-column: 2;
+}
+
+label.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: inline-flex;
+  gap: 4px;
+  font: 80%/1 system-ui;
+}

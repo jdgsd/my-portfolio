@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+  <title>Jazzlynn Derrick</title>
+</svelte:head>
+
+<h1>Jazzlynn Derrick</h1>
+
+<p>I'm an interdisciplinary researcher, planner, and student in the Master's of Design (MDes) program at the Harvard Graduate School of Design— graduating in May 2025. I'm passionate about community-driven strategies for addressing systemic injustices at the intersections of health, housing, and the built environment.
+</p>
+    
+<img src = "images/rainbow_headshot.png" width=800 alt = "A picture of Jazzlynn with a multicolor background">
