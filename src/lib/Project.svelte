@@ -10,11 +10,3 @@
         {data.description}
     </p>
 </article>
-
-<style>
-    .projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
-  grid-column-gap: 25px;
-}
-</style>
