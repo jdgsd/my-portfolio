@@ -1,3 +1,8 @@
+<script>
+    import Project from "$lib/Project.svelte";
+    import projects from "$lib/projects.json";
+</script>
+
 <svelte:head>
   <title>Home</title>
 </svelte:head>
@@ -7,3 +12,11 @@
 <p>I'm an interdisciplinary researcher, planner, and student in the Master's of Design (MDes) program at the Harvard Graduate School of Design— graduating in May 2025. I'm passionate about community-driven strategies for addressing systemic injustices at the intersections of health, housing, and the built environment.</p>
 
 <img src = "images/rainbow_headshot.png" width=800 alt = "">
+
+<h2>Recent Projects</h2>
+
+<div class="projects">
+    {#each projects.slice(0, 3) as p}
+    <Project data={p} hLevel="3" />
+    {/each}
+</div>
