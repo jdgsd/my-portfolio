@@ -2,62 +2,72 @@
     {
         "title": "Exploratory Visual Analysis",
         "year": "2025",
-        "image": "../../static/images/projects/a2_cover_image.png",
+        "image": "/images/projects/a2_cover_image.png",
         "description": "Demonstration of exploratory visual analysis investigating the impact of corporate property ownership on Boston's housing market."
     },
     {
         "title": "Visualization Critique and Redesign",
         "year": "2025",
-        "image": "../../static/images/projects/a3_cover.png",
+        "image": "/images/projects/a3_cover.png",
         "description": "Close study and re-design of the visual elements of a COVID-19 Omicron spike data visualization from 2022."
     },
     {
-        "title": "Deserunt nulla quisquam dolorem!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Temporibus quis cumque, ex quasi ullam dolorum soluta inventore. Officiis dolorum repellendus consectetur quaerat repellat tempore iusto ab, maiores nisi laborum, hic temporibus totam ullam magni porro? Expedita, cupiditate necessitatibus!"
+        "title": "Persuasive or Deceptive Visualization",
+        "year": "2025",
+        "image": "/images/projects/a4_cover.png",
+        "description": "Exploration of data visualization elements that can be used to maniuplate the messages communicated through visualizations using public NYPD citizen complaint data."
     },
     {
-        "title": "Esse quae numquam itaque?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Veritatis, explicabo? Quae distinctio rerum quaerat architecto eos eveniet eum ipsum vero? Consequuntur ullam voluptatum harum, quis vero, assumenda doloribus, cumque accusantium iure perferendis delectus deserunt quidem odio praesentium maxime."
+        "title": "Project Pitch: Power & (Dis)Place",
+        "year": "2025",
+        "image": "/images/projects/fp1_cover.png",
+        "description": "Pitch for an interactive web platform exploring the question: What are the consequences of the power disparity between corporate landlords and Bostonians?"
     },
     {
-        "title": "Excepturi, tenetur. Atque, in.",
+        "title": "From Encampment to Esperanza",
+        "year": "2020",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Tempora ducimus accusantium molestiae, dolore labore enim cupiditate fugiat omnis voluptate officia, officiis, harum at in similique. Saepe impedit sed, sapiente ducimus sit provident est quasi. Libero nemo enim maxime."
+        "description": "Needs assessment and co-design of a tiny house village for the homeless."
     },
     {
-        "title": "Blanditiis error voluptate accusamus?",
+        "title": "LiveWell / ViveBien",
+        "year": "2022",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Eveniet ullam asperiores nobis perferendis odit iste dolorem? Vel, odio error aliquam sed fugit molestiae eos quisquam inventore eligendi optio maxime, tempora perspiciatis ad repudiandae, pariatur quidem. Odit, cumque neque."
+        "description": "Mobile grocery market and health services for community wellbeing."
     },
     {
-        "title": "Quod tempora provident laudantium.",
+        "title": "Demystifying Development Costs",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ad officiis ratione exercitationem natus nihil necessitatibus iure nulla nisi voluptas at alias et recusandae, iste soluta perferendis illo consequatur? Ipsum perferendis quasi et accusantium soluta placeat? Reprehenderit, delectus similique?"
+        "description": "Research for housing production innovation for the City of Boston."
     },
     {
-        "title": "Reiciendis quibusdam enim animi!",
+        "title": "Ensemble Vert / Green Together",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Dignissimos eius nisi rerum cum architecto aut necessitatibus animi quidem quod dolor iste magni harum culpa maiores, dolorum at. Non, aliquid! Labore corrupti at unde, ipsam pariatur illo ullam quia?"
+        "description": "Climate Health Toolkit for Parisian Social Housing."
     },
     {
-        "title": "Eum mollitia ipsa quia.",
+        "title": "Acorn Center",
+        "year": "2023",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quam debitis fugiat commodi fugit nisi, ea necessitatibus, ut eveniet adipisci deserunt repellat perspiciatis quis! Nesciunt doloremque natus ab atque ex incidunt, blanditiis, nobis temporibus ullam molestiae quisquam consequuntur veritatis!"
+        "description": "Neighborhood Reentry Campus and Community Center for Liberatory Futures."
     },
     {
-        "title": "Impedit tenetur voluptatum distinctio!",
+        "title": "Tiny Houses, Big Questions",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Error itaque minus voluptates, animi fugiat saepe eum fugit odio tempora sapiente illo necessitatibus voluptatem? Voluptatum culpa delectus, ut repellat fugit corporis itaque harum quibusdam quo asperiores accusantium non aliquam."
+        "description": "Spatial characteristics of tiny house villages for the homeless in the U.S."
     },
     {
         "title": "Ad dolores ut exercitationem?",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Laborum rerum dolores cupiditate quibusdam quos error harum quaerat autem? Incidunt vitae at repellendus laboriosam molestiae reiciendis doloremque quisquam totam cupiditate a animi excepturi et ad, hic possimus, exercitationem tenetur!"
     },
     {
         "title": "Soluta numquam ad tenetur?",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Dolorem amet sunt voluptates velit, incidunt blanditiis reiciendis culpa quaerat nobis expedita quasi omnis optio? Eum placeat mollitia necessitatibus optio impedit deserunt, voluptate pariatur velit aut atque voluptatem laudantium minima?"
     }
