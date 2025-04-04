@@ -21,35 +21,6 @@ h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
 
-nav ul, 
-nav li {
-    display: contents;
-}
-
-nav {
-  display: flex;
-}
-
-nav a{
-  flex: 1;
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-  padding: 0.5em;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid var(--border-color);
-  --border-color: oklch(50% 10% 200 / 40%);
-}
-
-nav a.current {
-  border-bottom: 0.4em solid var(--border-color);
-}
-
-nav a:hover {
-  border-bottom: 0.4em solid var(--color-accent);
-  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
-}
-
 input,
 textarea,
 button,
@@ -101,11 +72,3 @@ article {
   grid-column: 2;
 }
 
-label.color-scheme {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  display: inline-flex;
-  gap: 4px;
-  font: 80%/1 system-ui;
-}

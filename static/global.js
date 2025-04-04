@@ -1,9 +1,9 @@
 // STEP 1
-console.log("IT’S ALIVE!");
+// console.log("IT’S ALIVE!");
 
-function $$ (selector, context = document) {
-	return Array.from(context.querySelectorAll(selector));
-}
+// function $$ (selector, context = document) {
+// 	return Array.from(context.querySelectorAll(selector));
+// }
 
 // STEP 2
 // 2.1
@@ -21,30 +21,30 @@ function $$ (selector, context = document) {
 // STEP 3
 
 // step 3.1
-let pages = [
-	{url: "./", title: "Home"},
-	{url: "projects", title: "Projects"},
-	{url: "cv", title: "CV"},
-    {url: "contact", title: "Contact"},
-    {url: "https://github.com/jdgsd", title: "GitHub"}
-];
+// let pages = [
+// 	{url: "./", title: "Home"},
+// 	{url: "projects", title: "Projects"},
+// 	{url: "cv", title: "CV"},
+//     {url: "contact", title: "Contact"},
+//     {url: "https://github.com/jdgsd", title: "GitHub"}
+// ];
 
-let nav = document.createElement("nav");
-document.body.prepend(nav);
+// let nav = document.createElement("nav");
+// document.body.prepend(nav);
 
-const ARE_WE_HOME = document.documentElement.classList.contains("home");
+// const ARE_WE_HOME = document.documentElement.classList.contains("home");
 
-for (let p of pages) {
-	let url = p.url;
-	let title = p.title;
+// for (let p of pages) {
+// 	let url = p.url;
+// 	let title = p.title;
 
-	// // Create link and add it to nav 
-    // if (!ARE_WE_HOME && !url.startsWith("http")) {
-    //     url = "../" + url;
-    // }
+// 	// // Create link and add it to nav 
+//     // if (!ARE_WE_HOME && !url.startsWith("http")) {
+//     //     url = "../" + url;
+//     // }
 
-	nav.insertAdjacentHTML("beforeend", `<a href="${ url }">${ title }</a>` );
-}
+// 	nav.insertAdjacentHTML("beforeend", `<a href="${ url }">${ title }</a>` );
+// }
 
 // step 3.2
 // TODO: Comment out the `for (let p of pages) {...}` loop you made in step 3.1 and uncomment the for loop below! 
@@ -78,36 +78,36 @@ for (let p of pages) {
 // step 4.1
 
 // step 4.2
-document.body.insertAdjacentHTML("afterbegin", `
-	<label class="color-scheme">
-		Theme:
-		<select>
-			<option value="light dark">Automatic</option>
-            <option value="dark">Dark</option>
-            <option value="light">Light</option>
-		</select>
-	</label>`
-);
+	// document.body.insertAdjacentHTML("afterbegin", `
+	// 	<label class="color-scheme">
+	// 		Theme:
+	// 		<select>
+	// 			<option value="light dark">Automatic</option>
+	// 			<option value="dark">Dark</option>
+	// 			<option value="light">Light</option>
+	// 		</select>
+	// 	</label>`
+	// );
 
 // step 4.3
 
 // step 4.4
-let select = document.querySelector("select");
+// let select = document.querySelector("select");
 
-select.addEventListener("input", function (event) {
-	console.log("color scheme changed to", event.target.value);
+// select.addEventListener("input", function (event) {
+// 	console.log("color scheme changed to", event.target.value);
 
-    document.documentElement.style.setProperty("color-scheme", event.target.value);
+//     document.documentElement.style.setProperty("color-scheme", event.target.value);
 
-    localStorage.colorScheme = event.target.value;
-});
+//     localStorage.colorScheme = event.target.value;
+// });
 
 
-// step 4.5 (continued)
-if (localStorage.colorScheme) {
-	document.documentElement.style.setProperty("color-scheme", localStorage.colorScheme);
-	select.value = localStorage.colorScheme;
-}
+// // step 4.5 (continued)
+// if (localStorage.colorScheme) {
+// 	document.documentElement.style.setProperty("color-scheme", localStorage.colorScheme);
+// 	select.value = localStorage.colorScheme;
+// }
 
 // STEP 5 (OPTIONAL)
 // Note: This is an optional part of the lab! If you want to do it, uncomment the lines below and fill in the TODOs. Otherwise, leave the lines commented out.

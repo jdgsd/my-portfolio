@@ -1,13 +1,15 @@
 [
     {
-        "title": "An Edited Title Test",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam reiciendis architecto molestiae quibusdam earum in accusamus tempora facilis ut eos aspernatur enim recusandae, sed, sunt adipisci odio. Cumque, sit architecto."
+        "title": "Exploratory Visual Analysis",
+        "year": "2025",
+        "image": "../../static/images/projects/a2_cover_image.png",
+        "description": "Demonstration of exploratory visual analysis investigating the impact of corporate property ownership on Boston's housing market."
     },
     {
-        "title": "A libero rerum assumenda.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ad veritatis nam libero inventore nesciunt quis quo dolorem explicabo cupiditate sequi, perspiciatis ullam doloribus nulla aperiam, delectus non odit laudantium? Alias distinctio perspiciatis natus soluta consectetur, odio a quia."
+        "title": "Visualization Critique and Redesign",
+        "year": "2025",
+        "image": "../../static/images/projects/a3_cover.png",
+        "description": "Close study and re-design of the visual elements of a COVID-19 Omicron spike data visualization from 2022."
     },
     {
         "title": "Deserunt nulla quisquam dolorem!",
