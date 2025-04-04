@@ -2,13 +2,13 @@
     {
         "title": "Exploratory Visual Analysis",
         "year": "2025",
-        "image": "../../images/projects/a2_cover_image.png",
+        "image": "./images/projects/a2_cover_image.png",
         "description": "Demonstration of exploratory visual analysis investigating the impact of corporate property ownership on Boston's housing market."
     },
     {
         "title": "Visualization Critique and Redesign",
         "year": "2025",
-        "image": "../images/projects/a3_cover.png",
+        "image": "./images/projects/a3_cover.png",
         "description": "Close study and re-design of the visual elements of a COVID-19 Omicron spike data visualization from 2022."
     },
     {
@@ -20,7 +20,7 @@
     {
         "title": "Project Pitch: Power & (Dis)Place",
         "year": "2025",
-        "image": "/images/projects/fp1_cover.png",
+        "image": "./images/projects/fp1_cover.png",
         "description": "Pitch for an interactive web platform exploring the question: What are the consequences of the power disparity between corporate landlords and Bostonians?"
     },
     {
