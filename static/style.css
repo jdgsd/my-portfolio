@@ -1,7 +1,6 @@
 :root {
   --color-accent: oklch(65% 50% 0);
   --border-gray: oklch(80% 3% 200);
-  /* ADD the rest of the color definitions here if needed! */
 }
 
 body {
@@ -72,3 +71,6 @@ article {
   grid-column: 2;
 }
 
+.projyr {
+  color: red;
+}
