@@ -70,3 +70,21 @@ article {
 .cv-detail {
   grid-column: 2;
 }
+
+/* GitHub Stats Dash  */
+
+/* .stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+  gap: 0.6rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.stat {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 2;
+  padding: 1rem;
+} */
