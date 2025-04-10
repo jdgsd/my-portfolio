@@ -76,8 +76,21 @@
         else if (evt.type === "mouseleave") {
             hoveredIndex = -1
         }
+        else if (evt.type === "click") {
+            let commit = commits[index]
+            if (!clickedCommits.includes(commit)) {
+                // Add the commit to the clickedCommits array
+                clickedCommits = [...clickedCommits, commit];
+            }
+            else {
+                    // Remove the commit from the array
+                    clickedCommits = clickedCommits.filter(c => c !== commit);
+            }
+        }
+        console.log(clickedCommits);
     }
 
+    let clickedCommits = [];
     
     onMount(async () => {
         data = await d3.csv("/loc.csv", row => ({
@@ -115,7 +128,6 @@
 
             return ret;
         });
-        console.log(commits)
     });
 </script>
 
@@ -154,6 +166,8 @@
                 <g class="dots">
                     {#each commits as commit, index }
                         <circle
+                            class:selected={ clickedCommits.includes(commit) }
+                            on:click={ evt => dotInteraction(index, evt)}
                             on:mouseenter={evt => dotInteraction(index, evt)}
                             on:mouseleave={evt => dotInteraction(index, evt)}
                             cx={ xScale(commit.datetime) }
@@ -243,6 +257,10 @@
         }
         transform-origin: center;
         transform-box: fill-box;
+    }
+
+    .selected {
+        fill: var(--color-accent);
     }
 
 </style>
