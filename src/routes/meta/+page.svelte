@@ -13,6 +13,18 @@
 	offset,
     } from '@floating-ui/dom';
 
+    import Bar from "$lib/Bar.svelte";
+
+    /*Bar Chart*/
+    $: allTypes = Array.from(new Set(data.map(d => d.type)));
+    $: selectedLines = (clickedCommits.length > 0 ? clickedCommits : commits).flatMap(d => d.lines);
+    $: selectedCounts = d3.rollup(
+        selectedLines,
+        v => v.length,
+        d => d.type
+    );
+    $: languageBreakdown = allTypes.map(type => [type, selectedCounts.get(type) || 0]);
+
     /*Commits Chart*/
     let width = 1000, height = 600;
     
@@ -193,6 +205,9 @@
             </dl>
         </div>
     </div>
+
+    <Bar data={languageBreakdown} width={width} />
+    
 </body>
 
 <style>
